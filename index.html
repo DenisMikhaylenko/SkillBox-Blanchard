@@ -1,0 +1,1803 @@
+<!DOCTYPE html>
+<html class="site-page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Blanchard художественная галерея</title>
+  <link href="./assets/fonts/OpenSans-Bold.woff2" rel="preload" as="font" crossorigin>
+  <link href="./assets/fonts/OpenSans-Regular.woff2" rel="preload" as="font" crossorigin>
+  <link href="./assets/fonts/OpenSans-SemiBold.woff2" rel="preload" as="font" crossorigin>
+  <link href="./css/home-modules.min.css" rel="stylesheet" media="screen">
+  <link href="./css/home-styles.min.css" rel="stylesheet" media="screen">
+  <link href="./site.webmanifest" rel="manifest">
+  <meta name="application-name" content="project-name">
+  <link href="./favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
+  <link href="./assets/images/favicon-25x25.png" rel="icon" sizes="25x25" type="image/png">
+  <link href="./assets/images/favicon-50x50.png" rel="icon" sizes="50x50" type="image/png">
+  <link href="./assets/images/favicon-75x75.png" rel="icon" sizes="75x75" type="image/png">
+  <link href="./assets/images/favicon-100x100.png" rel="icon" sizes="100x100" type="image/png">
+  <link href="./assets/images/favicon-180x180.png" rel="apple-touch-icon">
+  <link href="./mask-icon.svg" rel="mask-icon" color="#00а0ff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="description" content="Интернет картинная галерея">
+  <meta name="keywords" content="html scss java-script">
+  <meta name="robots" content="none">
+  <meta name="googlebot" content="none">
+  <meta name="site-created" content="dd.mm.yyyy">
+  <link href="https://denis.dev/" rel="author">
+  <link href="mailto:webmaster@denis.dev" rel="author">
+  <meta name="author" content="Денис">
+  <meta name="owner" content="">
+  <meta name="copyright" content="">
+  <meta name="theme-color" content="hsl(0deg 0% 100%)">
+  <meta name="color-scheme" content="light">
+  <meta name="rating" content="general">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="plug">
+  <meta property="og:url" content="path">
+  <meta property="og:title" content="plug">
+  <meta property="og:description" content="plug">
+  <meta property="og:image" content="path">
+  <meta property="og:image:width" content="968">
+  <meta property="og:image:height" content="504">
+  <meta property="og:image:alt" content="plug">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="plug">
+  <meta name="twitter:url" content="path">
+  <meta name="twitter:title" content="plug">
+  <meta name="twitter:description" content="plug">
+  <meta name="twitter:creator" content="plug">
+  <meta name="twitter:image" content="path">
+  <meta name="twitter:image:alt" content="plug">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+  <script src="./js/home-not-defer-scripts.min.js"></script>
+  <script src="./js/home-scripts.min.js" defer></script>
+</head>
+
+<body class="site-body site-page__site-body">
+  <div id="cursor">
+    <div id="cursor-outer"></div>
+    <div id="cursor-inner"></div>
+  </div>
+  <div class="site-preloader site-body__site-preloader">
+    <div class="site-preloader__wrapper">
+      <span class="site-preloader__line site-preloader__line_top"></span>
+      <span class="site-preloader__line site-preloader__line_right"></span>
+      <span class="site-preloader__line site-preloader__line_bottom"></span>
+      <span class="site-preloader__line site-preloader__line_left"></span>
+      <span class="site-preloader__title">Blanchard</span>
+      <span class="site-preloader__description">Картинная галерея</span>
+    </div>
+  </div>
+  <div class="banner">
+    <a class="banner__content" href="#no-scrolling">
+      link my portfolio
+      <span class="banner__button">
+        <svg class="banner__svg" width="25" height="25" aria-hidden="true">
+          <use xlink:href="assets/images/sprite.svg#icon-banner-close" />
+        </svg>
+      </span>
+    </a>
+  </div>
+  <a class="back-to-top" href="#"></a>
+  <h1 class="site-title">Blanchard - картинная галлерея</h1>
+  <header class="site-header">
+  <div class="site-header__first-line">
+    <div class="site-container site-header__first-line-container">
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <a class="logo site-header__logo" href="#">
+        <svg class="logo__svg" width="173" height="40" aria-hidden="true">
+          <use xlink:href="assets/images/sprite.svg#icon-header-logo" />
+        </svg>
+      </a>
+      <div class="site-header__nav">
+        <nav class="menu site-header__menu">
+          <ul class="menu__list">
+            <li>
+              <a class="menu__link" href="#about">
+                О&nbsp;нас
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="#galery" data-scroll>
+                Галерея
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="#catalog">
+                Каталог
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="#events">
+                События
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="#projects">
+                Проекты
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="#contacts">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="sigin-in site-header__sigin-in" type="button">
+          <svg class="sigin-in__svg" width="13" height="13" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-header-sigin-in" />
+          </svg>
+          Войти
+        </button>
+      </div>
+      <button class="site-header__button-search" type="button">
+        <svg class="site-header__button-search" width="30" height="28" aria-hidden="true">
+          <use xlink:href="assets/images/sprite.svg#icon-header-search" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="site-header__second-line">
+    <div class="site-container site-header__second-line-container">
+      <ul class="dropdowns site-header__dropdowns-list">
+        <li class="dropdowns__item">
+          <button class="dropdowns__buttons" type="button">
+            Реализм
+            <svg class="dropdowns__svg" width="12" height="7" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-dropdown-arrow" />
+            </svg>
+          </button>
+          <ul class="dropdowns__content-list" data-simplebar data-simplebar-auto-hide="false">
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_tintoretto" href="#no-scrolling">
+                Тинторетто
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_fridrih" href="#no-scrolling">
+                Фридрих
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_leonardo" href="#no-scrolling">
+                Леонардо
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_verriqo" href="#no-scrolling">
+                Верроккьо
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_tintoretto" href="#no-scrolling">
+                Тинторетто
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_fridrih" href="#no-scrolling">
+                Фридрих
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_leonardo" href="#no-scrolling">
+                Леонардо
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_verriqo" href="#no-scrolling">
+                Верроккьо
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_tintoretto" href="#no-scrolling">
+                Тинторетто
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_fridrih" href="#no-scrolling">
+                Фридрих
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_leonardo" href="#no-scrolling">
+                Леонардо
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_verriqo" href="#no-scrolling">
+                Верроккьо
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdowns__item">
+          <button class="dropdowns__buttons" type="button">
+            Импрессионизм
+            <svg class="dropdowns__svg" width="12" height="7" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-dropdown-arrow" />
+            </svg>
+          </button>
+          <ul class="dropdowns__content-list" data-simplebar data-simplebar-auto-hide="false">
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_mone" href="#no-scrolling">
+                Моне
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sisley" href="#no-scrolling">
+                Сислей
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_mane" href="#no-scrolling">
+                Мане
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_renuar" href="#no-scrolling">
+                Ренуар
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_mone" href="#no-scrolling">
+                Моне
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sisley" href="#no-scrolling">
+                Сислей
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_mane" href="#no-scrolling">
+                Мане
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_renuar" href="#no-scrolling">
+                Ренуар
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_mone" href="#no-scrolling">
+                Моне
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sisley" href="#no-scrolling">
+                Сислей
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_mane" href="#no-scrolling">
+                Мане
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_renuar" href="#no-scrolling">
+                Ренуар
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdowns__item">
+          <button class="dropdowns__buttons" type="button">
+            Постимпрессионизм
+            <svg class="dropdowns__svg" width="12" height="7" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-dropdown-arrow" />
+            </svg>
+          </button>
+          <ul class="dropdowns__content-list" data-simplebar data-simplebar-auto-hide="false">
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_vangog" href="#no-scrolling">
+                Ван Гог
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sezann" href="#no-scrolling">
+                Сезанн
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_gogen" href="#no-scrolling">
+                Гоген
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sera" href="#no-scrolling">
+                Сёра
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_vangog" href="#no-scrolling">
+                Ван Гог
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sezann" href="#no-scrolling">
+                Сезанн
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_gogen" href="#no-scrolling">
+                Гоген
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sera" href="#no-scrolling">
+                Сёра
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_vangog" href="#no-scrolling">
+                Ван Гог
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sezann" href="#no-scrolling">
+                Сезанн
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_gogen" href="#no-scrolling">
+                Гоген
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_sera" href="#no-scrolling">
+                Сёра
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdowns__item">
+          <button class="dropdowns__buttons" type="button" data-path="four">
+            Авангард
+            <svg class="dropdowns__svg" width="12" height="7" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-dropdown-arrow" />
+            </svg>
+          </button>
+          <ul class="dropdowns__content-list" data-simplebar data-simplebar-auto-hide="false" data-target="four">
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_candinskiy" href="#no-scrolling">
+                Кандинский
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_marinetti" href="#no-scrolling">
+                Маринетти
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_malevich" href="#no-scrolling">
+                Малевич
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_picasso" href="#no-scrolling">
+                Пикассо
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_candinskiy" href="#no-scrolling">
+                Кандинский
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_marinetti" href="#no-scrolling">
+                Маринетти
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_malevich" href="#no-scrolling">
+                Малевич
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_picasso" href="#no-scrolling">
+                Пикассо
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_candinskiy" href="#no-scrolling">
+                Кандинский
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_marinetti" href="#no-scrolling">
+                Маринетти
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_malevich" href="#no-scrolling">
+                Малевич
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_picasso" href="#no-scrolling">
+                Пикассо
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdowns__item">
+          <button class="dropdowns__buttons" type="button">
+            Футуризм
+            <svg class="dropdowns__svg" width="12" height="7">
+              <use xlink:href="assets/images/sprite.svg#icon-dropdown-arrow" />
+            </svg>
+          </button>
+          <ul class="dropdowns__content-list" data-simplebar data-simplebar-auto-hide="false" data-target="five">
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_carra" href="#no-scrolling">
+                Карра
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_pratella" href="#no-scrolling">
+                Прателла
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_severini" href="#no-scrolling">
+                Северини
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_balla" href="#no-scrolling">
+                Балла
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_carra" href="#no-scrolling">
+                Карра
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_pratella" href="#no-scrolling">
+                Прателла
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_severini" href="#no-scrolling">
+                Северини
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_balla" href="#no-scrolling">
+                Балла
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_carra" href="#no-scrolling">
+                Карра
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_pratella" href="#no-scrolling">
+                Прателла
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_severini" href="#no-scrolling">
+                Северини
+              </a>
+            </li>
+            <li class="dropdowns__content-item">
+              <a class="dropdowns__content-link dropdowns__content-link_image_balla" href="#no-scrolling">
+                Балла
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <form class="site-header__form">
+        <svg class="site-header__form-svg" width="23" height="22" aria-hidden="true">
+          <use xlink:href="assets/images/sprite.svg#icon-header-search" />
+        </svg>
+        <input class="site-header__form-input" type="text" placeholder="Поиск по сайту">
+      </form>
+    </div>
+  </div>
+</header>
+
+  <main class="site-main">
+    <section class="site-hero site-main__site-hero">
+  <div class="site-container site-hero__container">
+    <h2 class="site-hero__title qwe">Прикоснитесь к прекрасному</h2>
+    <p class="site-hero__description">Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений</p>
+    <button class="site-hero__button">Подписаться на рассылку</button>
+    <div class="swiper site-hero__swiper">
+      <ul class="swiper-wrapper site-hero__wrapper">
+        <li class="swiper-slide site-hero__slide">
+          <div class="site-hero__bg site-hero__bg_castle"></div>
+        </li>
+        <li class="swiper-slide site-hero__slide">
+          <div class="site-hero__bg site-hero__bg_angels"></div>
+        </li>
+        <li class="swiper-slide site-hero__slide">
+          <div class="site-hero__bg site-hero__bg_forest"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section class="site-about site-main__site-about" id="about">
+  <div class="site-container">
+    <h2 class="section-title site-about__title">О&nbsp;нас</h2>
+    <p class="site-about__description">
+      Ясность нашей позиции очевидна: семантический разбор внешних противодействий однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения внутренних резервов и&nbsp;ресурсов. Не&nbsp;следует, однако, забывать, что высококачественный прототип будущего проекта влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации модели развития. Повседневная практика показывает, что высокое качество позиционных исследований создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса распределения внутренних резервов и&nbsp;ресурсов. В&nbsp;рамках спецификации современных стандартов, действия представителей оппозиции набирают популярность среди определённых слоёв населения, а&nbsp;значит, должны быть разоблачены.
+    </p>
+  </div>
+</section>
+
+    <section class="site-galery site-main__site-galery" id="galery">
+  <div class="site-container site-galery__container">
+    <div class="site-galery__wrapper">
+      <div class="site-galery__left-content">
+        <h2 class="section-title site-galery__title">Галерея</h2>
+        <div class="site-galery__choices">
+          <label class="site-galery__filter">Фильтр:</label>
+          <select class="site-galery__select ui-galery-choices">
+            <option value="Живопись">Живопись</option>
+            <option value="Рисунок">Рисунок</option>
+            <option value="Скульптура">Скульптура</option>
+          </select>
+        </div>
+        <div class="site-galery__checkbox-content">
+          <label class="custom-chekbox">
+            <input class="custom-chekbox__native-element" type="checkbox" name="first" value="yes" aria-label="">
+            <span class="custom-chekbox__custom-element"></span>
+            <span class="custom-chekbox__text">XIX век</span>
+          </label>
+          <label class="custom-chekbox">
+            <input class="custom-chekbox__native-element" type="checkbox" checked name="second" value="yes"
+              aria-label="">
+            <span class="custom-chekbox__custom-element"></span>
+            <span class="custom-chekbox__text">XX век</span>
+          </label>
+          <label class="custom-chekbox">
+            <input class="custom-chekbox__native-element" type="checkbox" name="third" value="yes" aria-label="">
+            <span class="custom-chekbox__custom-element"></span>
+            <span class="custom-chekbox__text">Современность</span>
+          </label>
+        </div>
+      </div>
+      <div class="swiper site-galery__swiper">
+        <div class="site-galery__swiper-buttons">
+          <button class="site-galery__swiper-prev" type="button">
+            <svg width="7" height="12" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-gallery-swiper-arrow" />
+            </svg>
+          </button>
+          <div class="swiper-pagination site-galery__pagination"></div>
+          <button class="site-galery__swiper-next" type="button">
+            <svg width="7" height="12" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-gallery-swiper-arrow" />
+            </svg>
+          </button>
+        </div>
+        <ul class="swiper-wrapper site-galery__swiper-wrapper">
+          <li class="swiper-slide site-galery__slide">
+            <button class="site-galery__slide-button" data-hystmodal="#firstModal">
+              <picture class="site-galery__picture">
+                <source
+                  srcset="assets/images/gallery-first-picture-320.avif, assets/images/gallery-first-picture-320@2x.avif 2x, assets/images/gallery-first-picture-320@3x.avif 3x"
+                  media="(max-width: 320px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-first-picture-320.webp, assets/images/gallery-first-picture-320@2x.webp 2x, assets/images/gallery-first-picture-320@3x.webp 3x"
+                  media="(max-width: 320px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-first-picture-320.jpg, assets/images/gallery-first-picture-320@2x.jpg 2x, assets/images/gallery-first-picture-320@3x.jpg 3x"
+                  media="(max-width: 320px)">
+                <source
+                  srcset="assets/images/gallery-first-picture-768.avif, assets/images/gallery-first-picture-768@2x.avif 2x, assets/images/gallery-first-picture-768@3x.avif 3x"
+                  media="(max-width: 768px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-first-picture-768.webp, assets/images/gallery-first-picture-768@2x.webp 2x, assets/images/gallery-first-picture-768@3.webp 3x"
+                  media="(max-width: 768px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-first-picture-768.jpg, assets/images/gallery-first-picture-768@2x.jpg 2x, assets/images/gallery-first-picture-768@3x.jpg 3x"
+                  media="(max-width: 768px)">
+                <source
+                  srcset="assets/images/gallery-first-picture-1024.avif, assets/images/gallery-first-picture-1024@2x.avif 2x, assets/images/gallery-first-picture-1024@3x.avif 3x"
+                  media="(max-width: 1024px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-first-picture-1024.webp, assets/images/gallery-first-picture-1024@2x.webp 2x, assets/images/gallery-first-picture-1024@3x.webp 3x"
+                  media="(max-width: 1024px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-first-picture-1024.jpg, assets/images/gallery-first-picture-1024@2x.jpg 2x, assets/images/gallery-first-picture-1024@3x.jpg 3x"
+                  media="(max-width: 1024px)">
+                <source
+                  srcset="assets/images/gallery-first-picture-1920.avif, assets/images/gallery-first-picture-1920@2x.avif 2x, assets/images/gallery-first-picture-1920@3x.avif 3x"
+                  type="image/avif">
+                <source
+                  srcset="assets/images/gallery-first-picture-1920.webp, assets/images/gallery-first-picture-1920@2x.webp 2x, assets/images/gallery-first-picture-1920@3x.webp 3x"
+                  type="image/webp">
+                <img class="site-galery__image" src="assets/images/gallery-first-picture-1920.jpg"
+                  srcset="assets/images/gallery-first-picture-1920@2x.jpg 2x, assets/images/gallery-first-picture-1920@3x.jpg 3x"
+                  width="350" height="350" decoding="async" loading="lazy" alt="Художественная картина-1">
+              </picture>
+            </button>
+          </li>
+          <li class="swiper-slide site-galery__slide">
+            <button class="site-galery__slide-button" data-hystmodal="#secondModal">
+              <picture class="site-galery__picture">
+                <source
+                  srcset="assets/images/gallery-second-picture-320.avif, assets/images/gallery-second-picture-320@2x.avif 2x, assets/images/gallery-second-picture-320@3x.avif 3x"
+                  media="(max-width: 320px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-second-picture-320.webp, assets/images/gallery-second-picture-320@2x.webp 2x, assets/images/gallery-second-picture-320@3x.webp 3x"
+                  media="(max-width: 320px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-second-picture-320.jpg, assets/images/gallery-second-picture-320@2x.jpg 2x, assets/images/gallery-second-picture-320@3x.jpg 3x"
+                  media="(max-width: 320px)">
+                <source
+                  srcset="assets/images/gallery-second-picture-768.avif, assets/images/gallery-second-picture-768@2x.avif 2x, assets/images/gallery-second-picture-768@3x.avif 3x"
+                  media="(max-width: 768px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-second-picture-768.webp, assets/images/gallery-second-picture-768@2x.webp 2x, assets/images/gallery-second-picture-768@3.webp 3x"
+                  media="(max-width: 768px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-second-picture-768.jpg, assets/images/gallery-second-picture-768@2x.jpg 2x, assets/images/gallery-second-picture-768@3x.jpg 3x"
+                  media="(max-width: 768px)">
+                <source
+                  srcset="assets/images/gallery-second-picture-1024.avif, assets/images/gallery-second-picture-1024@2x.avif 2x, assets/images/gallery-second-picture-1024@3x.avif 3x"
+                  media="(max-width: 1024px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-second-picture-1024.webp, assets/images/gallery-second-picture-1024@2x.webp 2x, assets/images/gallery-second-picture-1024@3x.webp 3x"
+                  media="(max-width: 1024px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-second-picture-1024.jpg, assets/images/gallery-second-picture-1024@2x.jpg 2x, assets/images/gallery-second-picture-1024@3x.jpg 3x"
+                  media="(max-width: 1024px)">
+                <source
+                  srcset="assets/images/gallery-second-picture-1920.avif, assets/images/gallery-second-picture-1920@2x.avif 2x, assets/images/gallery-second-picture-1920@3x.avif 3x"
+                  type="image/avif">
+                <source
+                  srcset="assets/images/gallery-second-picture-1920.webp, assets/images/gallery-second-picture-1920@2x.webp 2x, assets/images/gallery-second-picture-1920@3x.webp 3x"
+                  type="image/webp">
+                <img class="site-galery__image" src="assets/images/gallery-second-picture-1920.jpg"
+                  srcset="assets/images/gallery-second-picture-1920@2x.jpg 2x, assets/images/gallery-second-picture-1920@3x.jpg 3x"
+                  width="350" height="350" decoding="async" loading="lazy" alt="Художественная картина-2">
+              </picture>
+            </button>
+          </li>
+          <li class="swiper-slide site-galery__slide">
+            <button class="site-galery__slide-button" data-hystmodal="#thirdModal">
+              <picture class="site-galery__picture">
+                <source
+                  srcset="assets/images/gallery-third-picture-320.avif, assets/images/gallery-third-picture-320@2x.avif 2x, assets/images/gallery-third-picture-320@3x.avif 3x"
+                  media="(max-width: 320px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-third-picture-320.webp, assets/images/gallery-third-picture-320@2x.webp 2x, assets/images/gallery-third-picture-320@3x.webp 3x"
+                  media="(max-width: 320px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-third-picture-320.jpg, assets/images/gallery-third-picture-320@2x.jpg 2x, assets/images/gallery-third-picture-320@3x.jpg 3x"
+                  media="(max-width: 320px)">
+                <source
+                  srcset="assets/images/gallery-third-picture-768.avif, assets/images/gallery-third-picture-768@2x.avif 2x, assets/images/gallery-third-picture-768@3x.avif 3x"
+                  media="(max-width: 768px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-third-picture-768.webp, assets/images/gallery-third-picture-768@2x.webp 2x, assets/images/gallery-third-picture-768@3.webp 3x"
+                  media="(max-width: 768px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-third-picture-768.jpg, assets/images/gallery-third-picture-768@2x.jpg 2x, assets/images/gallery-third-picture-768@3x.jpg 3x"
+                  media="(max-width: 768px)">
+                <source
+                  srcset="assets/images/gallery-third-picture-1024.avif, assets/images/gallery-third-picture-1024@2x.avif 2x, assets/images/gallery-third-picture-1024@3x.avif 3x"
+                  media="(max-width: 1024px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-third-picture-1024.webp, assets/images/gallery-third-picture-1024@2x.webp 2x, assets/images/gallery-third-picture-1024@3x.webp 3x"
+                  media="(max-width: 1024px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-third-picture-1024.jpg, assets/images/gallery-third-picture-1024@2x.jpg 2x, assets/images/gallery-third-picture-1024@3x.jpg 3x"
+                  media="(max-width: 1024px)">
+                <source
+                  srcset="assets/images/gallery-third-picture-1920.avif, assets/images/gallery-third-picture-1920@2x.avif 2x, assets/images/gallery-third-picture-1920@3x.avif 3x"
+                  type="image/avif">
+                <source
+                  srcset="assets/images/gallery-third-picture-1920.webp, assets/images/gallery-third-picture-1920@2x.webp 2x, assets/images/gallery-third-picture-1920@3x.webp 3x"
+                  type="image/webp">
+                <img class="site-galery__image" src="assets/images/gallery-third-picture-1920.jpg"
+                  srcset="assets/images/gallery-third-picture-1920@2x.jpg 2x, assets/images/gallery-third-picture-1920@3x.jpg 3x"
+                  width="350" height="350" decoding="async" loading="lazy" alt="Художественная картина-2">
+              </picture>
+            </button>
+          </li>
+          <li class="swiper-slide site-galery__slide">
+            <button class="site-galery__slide-button" data-hystmodal="#fourthModal">
+              <picture class="site-galery__picture">
+                <source
+                  srcset="assets/images/gallery-four-picture-320.avif, assets/images/gallery-four-picture-320@2x.avif 2x, assets/images/gallery-four-picture-320@3x.avif 3x"
+                  media="(max-width: 320px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-four-picture-320.webp, assets/images/gallery-four-picture-320@2x.webp 2x, assets/images/gallery-four-picture-320@3x.webp 3x"
+                  media="(max-width: 320px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-four-picture-320.jpg, assets/images/gallery-four-picture-320@2x.jpg 2x, assets/images/gallery-four-picture-320@3x.jpg 3x"
+                  media="(max-width: 320px)">
+                <source
+                  srcset="assets/images/gallery-four-picture-768.avif, assets/images/gallery-four-picture-768@2x.avif 2x, assets/images/gallery-four-picture-768@3x.avif 3x"
+                  media="(max-width: 768px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-four-picture-768.webp, assets/images/gallery-four-picture-768@2x.webp 2x, assets/images/gallery-four-picture-768@3.webp 3x"
+                  media="(max-width: 768px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-four-picture-768.jpg, assets/images/gallery-four-picture-768@2x.jpg 2x, assets/images/gallery-four-picture-768@3x.jpg 3x"
+                  media="(max-width: 768px)">
+                <source
+                  srcset="assets/images/gallery-four-picture-1024.avif, assets/images/gallery-four-picture-1024@2x.avif 2x, assets/images/gallery-four-picture-1024@3x.avif 3x"
+                  media="(max-width: 1024px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-four-picture-1024.webp, assets/images/gallery-four-picture-1024@2x.webp 2x, assets/images/gallery-four-picture-1024@3x.webp 3x"
+                  media="(max-width: 1024px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-four-picture-1024.jpg, assets/images/gallery-four-picture-1024@2x.jpg 2x, assets/images/gallery-four-picture-1024@3x.jpg 3x"
+                  media="(max-width: 1024px)">
+                <source
+                  srcset="assets/images/gallery-four-picture-1920.avif, assets/images/gallery-four-picture-1920@2x.avif 2x, assets/images/gallery-four-picture-1920@3x.avif 3x"
+                  type="image/avif">
+                <source
+                  srcset="assets/images/gallery-four-picture-1920.webp, assets/images/gallery-four-picture-1920@2x.webp 2x, assets/images/gallery-four-picture-1920@3x.webp 3x"
+                  type="image/webp">
+                <img class="site-galery__image" src="assets/images/gallery-four-picture-1920.jpg"
+                  srcset="assets/images/gallery-four-picture-1920@2x.jpg 2x, assets/images/gallery-four-picture-1920@3x.jpg 3x"
+                  width="350" height="350" decoding="async" loading="lazy" alt="Художественная картина-2">
+              </picture>
+            </button>
+          </li>
+          <li class="swiper-slide site-galery__slide">
+            <button class="site-galery__slide-button" data-hystmodal="#fifthModal">
+              <picture class="site-galery__picture">
+                <source
+                  srcset="assets/images/gallery-five-picture-320.avif, assets/images/gallery-five-picture-320@2x.avif 2x, assets/images/gallery-five-picture-320@3x.avif 3x"
+                  media="(max-width: 320px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-five-picture-320.webp, assets/images/gallery-five-picture-320@2x.webp 2x, assets/images/gallery-five-picture-320@3x.webp 3x"
+                  media="(max-width: 320px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-five-picture-320.jpg, assets/images/gallery-five-picture-320@2x.jpg 2x, assets/images/gallery-five-picture-320@3x.jpg 3x"
+                  media="(max-width: 320px)">
+                <source
+                  srcset="assets/images/gallery-five-picture-768.avif, assets/images/gallery-five-picture-768@2x.avif 2x, assets/images/gallery-five-picture-768@3x.avif 3x"
+                  media="(max-width: 768px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-five-picture-768.webp, assets/images/gallery-five-picture-768@2x.webp 2x, assets/images/gallery-five-picture-768@3.webp 3x"
+                  media="(max-width: 768px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-five-picture-768.jpg, assets/images/gallery-five-picture-768@2x.jpg 2x, assets/images/gallery-five-picture-768@3x.jpg 3x"
+                  media="(max-width: 768px)">
+                <source
+                  srcset="assets/images/gallery-five-picture-1024.avif, assets/images/gallery-five-picture-1024@2x.avif 2x, assets/images/gallery-five-picture-1024@3x.avif 3x"
+                  media="(max-width: 1024px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-five-picture-1024.webp, assets/images/gallery-five-picture-1024@2x.webp 2x, assets/images/gallery-five-picture-1024@3x.webp 3x"
+                  media="(max-width: 1024px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-five-picture-1024.jpg, assets/images/gallery-five-picture-1024@2x.jpg 2x, assets/images/gallery-five-picture-1024@3x.jpg 3x"
+                  media="(max-width: 1024px)">
+                <source
+                  srcset="assets/images/gallery-five-picture-1920.avif, assets/images/gallery-five-picture-1920@2x.avif 2x, assets/images/gallery-five-picture-1920@3x.avif 3x"
+                  type="image/avif">
+                <source
+                  srcset="assets/images/gallery-five-picture-1920.webp, assets/images/gallery-five-picture-1920@2x.webp 2x, assets/images/gallery-five-picture-1920@3x.webp 3x"
+                  type="image/webp">
+                <img class="site-galery__image" src="assets/images/gallery-five-picture-1920.jpg"
+                  srcset="assets/images/gallery-five-picture-1920@2x.jpg 2x, assets/images/gallery-five-picture-1920@3x.jpg 3x"
+                  width="350" height="350" decoding="async" loading="lazy" alt="Художественная картина-2">
+              </picture>
+            </button>
+          </li>
+          <li class="swiper-slide site-galery__slide">
+            <button class="site-galery__slide-button" data-hystmodal="#sixthModal">
+              <picture class="site-galery__picture">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-320.avif, assets/images/gallery-sixth-picture-320@2x.avif 2x, assets/images/gallery-sixth-picture-320@3x.avif 3x"
+                  media="(max-width: 320px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-320.webp, assets/images/gallery-sixth-picture-320@2x.webp 2x, assets/images/gallery-sixth-picture-320@3x.webp 3x"
+                  media="(max-width: 320px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-320.jpg, assets/images/gallery-sixth-picture-320@2x.jpg 2x, assets/images/gallery-sixth-picture-320@3x.jpg 3x"
+                  media="(max-width: 320px)">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-768.avif, assets/images/gallery-sixth-picture-768@2x.avif 2x, assets/images/gallery-sixth-picture-768@3x.avif 3x"
+                  media="(max-width: 768px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-768.webp, assets/images/gallery-sixth-picture-768@2x.webp 2x, assets/images/gallery-sixth-picture-768@3.webp 3x"
+                  media="(max-width: 768px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-768.jpg, assets/images/gallery-sixth-picture-768@2x.jpg 2x, assets/images/gallery-sixth-picture-768@3x.jpg 3x"
+                  media="(max-width: 768px)">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-1024.avif, assets/images/gallery-sixth-picture-1024@2x.avif 2x, assets/images/gallery-sixth-picture-1024@3x.avif 3x"
+                  media="(max-width: 1024px)" type="image/avif">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-1024.webp, assets/images/gallery-sixth-picture-1024@2x.webp 2x, assets/images/gallery-sixth-picture-1024@3x.webp 3x"
+                  media="(max-width: 1024px)" type="image/webp">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-1024.jpg, assets/images/gallery-sixth-picture-1024@2x.jpg 2x, assets/images/gallery-sixth-picture-1024@3x.jpg 3x"
+                  media="(max-width: 1024px)">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-1920.avif, assets/images/gallery-sixth-picture-1920@2x.avif 2x, assets/images/gallery-sixth-picture-1920@3x.avif 3x"
+                  type="image/avif">
+                <source
+                  srcset="assets/images/gallery-sixth-picture-1920.webp, assets/images/gallery-sixth-picture-1920@2x.webp 2x, assets/images/gallery-sixth-picture-1920@3x.webp 3x"
+                  type="image/webp">
+                <img class="site-galery__image" src="assets/images/gallery-sixth-picture-1920.jpg"
+                  srcset="assets/images/gallery-sixth-picture-1920@2x.jpg 2x, assets/images/gallery-sixth-picture-1920@3x.jpg 3x"
+                  width="350" height="350" decoding="async" loading="lazy" alt="Художественная картина-2">
+              </picture>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="site-catalog site-main__site-catalog" id="catalog" >
+  <div class="site-container">
+    <h2 class="section-title site-catalog__title">Каталог</h2>
+    <p class="site-catalog__description">
+      Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа
+      политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали. Являясь всего лишь
+      частью общей картины, стремящиеся вытеснить традиционное производство, нанотехнологии и&nbsp;по&nbsp;сей день
+      остаются уделом либералов, которые жаждут быть функционально разнесены на&nbsp;независимые элементы.
+    </p>
+    <div class="site-catalog__wrapper">
+      <article class="site-catalog__author is-active" id="domeniko">
+        <picture class="site-catalog__picture">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-320.avif, assets/images/catalog-domeniko-picture-320@2x.avif 2x, assets/images/catalog-domeniko-picture-320@3x.avif 3x"
+            media="(max-width: 320px)" type="image/avif">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-320.webp, assets/images/catalog-domeniko-picture-320@2x.webp 2x, assets/images/catalog-domeniko-picture-320@3x.webp 3x"
+            media="(max-width: 320px)" type="image/webp">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-320.jpg, assets/images/catalog-domeniko-picture-320@2x.jpg 2x, assets/images/catalog-domeniko-picture-320@3x.jpg 3x"
+            media="(max-width: 320px)">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-768.avif, assets/images/catalog-domeniko-picture-768@2x.avif 2x, assets/images/catalog-domeniko-picture-768@3x.avif 3x"
+            media="(max-width: 768px)" type="image/avif">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-768.webp, assets/images/catalog-domeniko-picture-768@2x.webp 2x, assets/images/catalog-domeniko-picture-768@3.webp 3x"
+            media="(max-width: 768px)" type="image/webp">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-768.jpg, assets/images/catalog-domeniko-picture-768@2x.jpg 2x, assets/images/catalog-domeniko-picture-768@3x.jpg 3x"
+            media="(max-width: 768px)">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-1024.avif, assets/images/catalog-domeniko-picture-1024@2x.avif 2x, assets/images/catalog-domeniko-picture-1024@3x.avif 3x"
+            media="(max-width: 1024px)" type="image/avif">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-1024.webp, assets/images/catalog-domeniko-picture-1024@2x.webp 2x, assets/images/catalog-domeniko-picture-1024@3x.webp 3x"
+            media="(max-width: 1024px)" type="image/webp">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-1024.jpg, assets/images/catalog-domeniko-picture-1024@2x.jpg 2x, assets/images/catalog-domeniko-picture-1024@3x.jpg 3x"
+            media="(max-width: 1024px)">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-1920.avif, assets/images/catalog-domeniko-picture-1920@2x.avif 2x, assets/images/catalog-domeniko-picture-1920@3x.avif 3x"
+            type="image/avif">
+          <source
+            srcset="assets/images/catalog-domeniko-picture-1920.webp, assets/images/catalog-domeniko-picture-1920@2x.webp 2x, assets/images/catalog-domeniko-picture-1920@3x.webp 3x"
+            type="image/webp">
+          <img class="site-catalog__image" src="assets/images/catalog-domeniko-picture-1920.jpg"
+            srcset="assets/images/catalog-domeniko-picture-1920@2x.jpg 2x, assets/images/catalog-domeniko-picture-1920@3x.jpg 3x"
+            width="750" height="470" decoding="async" loading="lazy" alt="Доменико Гирландайо">
+        </picture>
+        <h2 class="site-catalog__author-title">Доменико Гирландайо</h2>
+        <span class="site-catalog__author-date">2&nbsp;июня 1448&ndash;11 января 1494</span>
+        <p class="site-catalog__author-description">Один из&nbsp;ведущих флорентийских художников Кватроченто,
+          основатель художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо. Глава
+          художественной мастерской, где юный Микеланджело в&nbsp;течение года овладевал профессиональными навыками.
+          Автор фресковых циклов, в&nbsp;которых выпукло, со&nbsp;всевозможными подробностями показана домашняя жизнь
+          библейских персонажей (в&nbsp;их&nbsp;роли выступают знатные граждане Флоренции в&nbsp;костюмах того времени).
+        </p>
+      </article>
+      <article class="site-catalog__author" id="fake">
+      <div class="site-catalog__author-content">
+        <svg class="site-catalog__author-svg" width="236" height="236" aria-hidden="true">
+          <use xlink:href="assets/images/sprite.svg#icon-artist" />
+        </svg>
+      </div>
+        <h2 class="site-catalog__author-title">Что мы&nbsp;о&nbsp;нём знаем?</h2>
+        <p class="site-catalog__author-description">Пока ничего... Зато мы&nbsp;точно знаем, что в&nbsp;галерее есть на&nbsp;что посмотреть!</p>
+        <a class="in-gallery-link site-catalog__in-gallery-link site-catalog__in-gallery-link site-catalog__in-gallery-link" href="#no-scrolling">В&nbsp;галерею</a>
+      </article>
+      <div class="accordion-container">
+        <div class="ac">
+          <h3 class="ac-header">
+            <button class="ac-trigger" type="button">
+              <span class="ac-trigger__date">C&nbsp;1400 по&nbsp;1499&nbsp;гг</span>
+              <span class="ac-trigger__icon">
+                <svg class="ac-trigger__icon-svg" width="18" height="11" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-catalog-tab-arrow" />
+                </svg>
+              </span>
+            </button>
+          </h3>
+          <div class="ac-panel ac-panel_grid">
+            <ul class="ac-text">
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Бенедетто ди&nbsp;Биндо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Бергоньоне, Амброджо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Биссоло, Франческо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Больтраффио, Джованни</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Бонсиньори, Франческо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Боттичини, Рафаэлло</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Брамантино</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Бреа, Людовико</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Бьяджо д&rsquo;Антонио Туччи</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Веккьетта</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Андреа Верроккьо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author is-active" type="button" data-tab="#domeniko">Доменико Гирландайо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Беноццо Гоццоли</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Граначчи, Франческо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Грегорио ди Чекко</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Джованни да Удине</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Джованни ди Паоло</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Джорджоне</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Парентино, Бернардо</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Пезеллино</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Пьетро Перуджино</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Перуцци, Бальдассаре</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Пизанелло</button>
+              </li>
+              <li class="ac-text__item">
+                <button class="ac-text__button-author" type="button" data-tab="#fake">Пинтуриккьо</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="ac">
+          <h3 class="ac-header">
+            <button class="ac-trigger" type="button">C&nbsp;1500 по&nbsp;1599&nbsp;гг
+              <span class="ac-trigger__icon">
+                <svg class="ac-trigger__icon-svg" width="18" height="11" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-catalog-tab-arrow" />
+                </svg>
+              </span>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <div class="ac-panel-null">
+              <div class="ac-panel__plug"></div>
+              <div class="ac-panel__content">
+                <h2 class="ac-panel__title">Здаесь пока пусто</h2>
+                <p class="ac-panel__description">А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя</p>
+                <a class="in-gallery-link site-catalog__in-gallery-link" href="#no-scrolling">В&nbsp;галерею</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="ac">
+          <h3 class="ac-header">
+            <button class="ac-trigger" type="button">C&nbsp;1600 по&nbsp;1699&nbsp;гг
+              <span class="ac-trigger__icon">
+                <svg class="ac-trigger__icon-svg" width="18" height="11" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-catalog-tab-arrow" />
+                </svg>
+              </span>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <div class="ac-panel-null">
+              <div class="ac-panel__plug"></div>
+              <div class="ac-panel__content">
+                <h2 class="ac-panel__title">Здаесь пока пусто</h2>
+                <p class="ac-panel__description">А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя</p>
+                <a class="in-gallery-link site-catalog__in-gallery-link" href="#no-scrolling">В&nbsp;галерею</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="ac">
+          <h3 class="ac-header">
+            <button class="ac-trigger" type="button">C&nbsp;1700 по&nbsp;1799&nbsp;гг
+              <span class="ac-trigger__icon">
+                <svg class="ac-trigger__icon-svg" width="18" height="11" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-catalog-tab-arrow" />
+                </svg>
+              </span>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <div class="ac-panel-null">
+              <div class="ac-panel__plug"></div>
+              <div class="ac-panel__content">
+                <h2 class="ac-panel__title">Здаесь пока пусто</h2>
+                <p class="ac-panel__description">А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя</p>
+                <a class="in-gallery-link site-catalog__in-gallery-link" href="#no-scrolling">В&nbsp;галерею</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="ac">
+          <h3 class="ac-header">
+            <button class="ac-trigger" type="button">C&nbsp;1800 по&nbsp;1899&nbsp;гг
+              <span class="ac-trigger__icon">
+                <svg class="ac-trigger__icon-svg" width="18" height="11" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-catalog-tab-arrow" />
+                </svg>
+              </span>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <div class="ac-panel-null">
+              <div class="ac-panel__plug"></div>
+              <div class="ac-panel__content">
+                <h2 class="ac-panel__title">Здаесь пока пусто</h2>
+                <p class="ac-panel__description">А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя</p>
+                <a class="in-gallery-link site-catalog__in-gallery-link" href="#no-scrolling">В&nbsp;галерею</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="ac">
+          <h3 class="ac-header">
+            <button class="ac-trigger" type="button">C&nbsp;1900 по&nbsp;1999&nbsp;гг
+              <span class="ac-trigger__icon">
+                <svg class="ac-trigger__icon-svg" width="18" height="11" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-catalog-tab-arrow" />
+                </svg>
+              </span>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <div class="ac-panel-null">
+              <div class="ac-panel__plug"></div>
+              <div class="ac-panel__content">
+                <h2 class="ac-panel__title">Здаесь пока пусто</h2>
+                <p class="ac-panel__description">А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя</p>
+                <a class="in-gallery-link site-catalog__in-gallery-link" href="#no-scrolling">В&nbsp;галерею</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="ac">
+          <h3 class="ac-header">
+            <button class="ac-trigger" type="button">C&nbsp;2000&nbsp;гг
+              <span class="ac-trigger__icon">
+                <svg class="ac-trigger__icon-svg" width="18" height="11" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-catalog-tab-arrow" />
+                </svg>
+              </span>
+            </button>
+          </h3>
+          <div class="ac-panel">
+            <div class="ac-panel-null">
+              <div class="ac-panel__plug"></div>
+              <div class="ac-panel__content">
+                <h2 class="ac-panel__title">Здаесь пока пусто</h2>
+                <p class="ac-panel__description">А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя</p>
+                <a class="in-gallery-link site-catalog__in-gallery-link" href="#no-scrolling">В&nbsp;галерею</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="site-events site-main__site-events" id="events">
+  <div class="site-container site-events__container">
+    <h2 class="section-title site-events__title">События</h2>
+    <div class="site-events__buttons">
+      <button class="site-events__button-prev" type="button">
+        <svg class="site-events__button-svg" width="11" height="18" aria-hidden="true">
+          <use xlink:href="assets/images/sprite.svg#icon-event-swiper-arrow" />
+        </svg>
+      </button>
+      <button class="site-events__button-next" type="button">
+        <svg class="site-events__button-svg" width="11" height="18" aria-hidden="true">
+          <use xlink:href="assets/images/sprite.svg#icon-event-swiper-arrow" />
+        </svg>
+      </button>
+    </div>
+    <div class="swiper site-events__swiper">
+      <ul class="swiper-wrapper site-events__wrapper">
+        <li class="swiper-slide site-events__swiper-slide">
+          <article class="site-events__article">
+            <picture class="site-events__picture">
+              <source srcset="assets/images/events-second-picture-320.avif, assets/images/events-second-picture-320@2x.avif 2x, assets/images/events-second-picture-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+              <source srcset="assets/images/events-second-picture-320.webp, assets/images/events-second-picture-320@2x.webp 2x, assets/images/events-second-picture-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+              <source srcset="assets/images/events-second-picture-320.jpg, assets/images/events-second-picture-320@2x.jpg 2x, assets/images/events-second-picture-320@3x.jpg 3x" media="(max-width: 320px)">
+              <source srcset="assets/images/events-second-picture-768.avif, assets/images/events-second-picture-768@2x.avif 2x, assets/images/events-second-picture-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/events-second-picture-768.webp, assets/images/events-second-picture-768@2x.webp 2x, assets/images/events-second-picture-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/events-second-picture-768.jpg, assets/images/events-second-picture-768@2x.jpg 2x, assets/images/events-second-picture-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/events-second-picture-1024.avif, assets/images/events-second-picture-1024@2x.avif 2x, assets/images/events-second-picture-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/events-second-picture-1024.webp, assets/images/events-second-picture-1024@2x.webp 2x, assets/images/events-second-picture-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/events-second-picture-1024.jpg, assets/images/events-second-picture-1024@2x.jpg 2x, assets/images/events-second-picture-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/events-second-picture-1920.avif, assets/images/events-second-picture-1920@2x.avif 2x, assets/images/events-second-picture-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/events-second-picture-1920.webp, assets/images/events-second-picture-1920@2x.webp 2x, assets/images/events-second-picture-1920@3x.webp 3x" type="image/webp">
+              <img class="site-events__image" src="assets/images/events-second-picture-1920.jpg" srcset="assets/images/events-second-picture-1920@2x.jpg 2x, assets/images/events-second-picture-1920@3x.jpg 3x" width="500" height="300" decoding="async" loading="lazy" alt="Книжная гравюра в живом восприятии">
+            </picture>
+            <div class="site-events__article-content">
+              <span class="site-events__article-signature">Музей им. Щусева</span>
+              <span class="site-events__article-signature">с&nbsp;20&nbsp;марта по&nbsp;30&nbsp;апреля</span>
+              <h3 class="site-events__article-title">Книжная гравюра в&nbsp;живом восприятии</h3>
+              <p class="site-events__article-description">Один из&nbsp;ведущих флорентийских художников Кватроченто,
+                основатель художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо</p>
+              <a class="site-events__article-link" href="#no-scrolling">Подробнее</a>
+            </div>
+          </article>
+        </li>
+        <li class="swiper-slide site-events__swiper-slide">
+          <article class="site-events__article">
+            <picture class="site-events__picture">
+              <source srcset="assets/images/events-first-picture-320.avif, assets/images/events-first-picture-320@2x.avif 2x, assets/images/events-first-picture-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+              <source srcset="assets/images/events-first-picture-320.webp, assets/images/events-first-picture-320@2x.webp 2x, assets/images/events-first-picture-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+              <source srcset="assets/images/events-first-picture-320.jpg, assets/images/events-first-picture-320@2x.jpg 2x, assets/images/events-first-picture-320@3x.jpg 3x" media="(max-width: 320px)">
+              <source srcset="assets/images/events-first-picture-768.avif, assets/images/events-first-picture-768@2x.avif 2x, assets/images/events-first-picture-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/events-first-picture-768.webp, assets/images/events-first-picture-768@2x.webp 2x, assets/images/events-first-picture-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/events-first-picture-768.jpg, assets/images/events-first-picture-768@2x.jpg 2x, assets/images/events-first-picture-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/events-first-picture-1024.avif, assets/images/events-first-picture-1024@2x.avif 2x, assets/images/events-first-picture-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/events-first-picture-1024.webp, assets/images/events-first-picture-1024@2x.webp 2x, assets/images/events-first-picture-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/events-first-picture-1024.jpg, assets/images/events-first-picture-1024@2x.jpg 2x, assets/images/events-first-picture-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/events-first-picture-1920.avif, assets/images/events-first-picture-1920@2x.avif 2x, assets/images/events-first-picture-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/events-first-picture-1920.webp, assets/images/events-first-picture-1920@2x.webp 2x, assets/images/events-first-picture-1920@3x.webp 3x" type="image/webp">
+              <img class="site-events__image" src="assets/images/events-first-picture-1920.jpg" srcset="assets/images/events-first-picture-1920@2x.jpg 2x, assets/images/events-first-picture-1920@3x.jpg 3x" width="500" height="300" decoding="async" loading="lazy" alt="«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.">
+            </picture>
+            <div class="site-events__article-content">
+              <span class="site-events__article-signature">ММОМА</span>
+              <span class="site-events__article-signature">24&nbsp;марта 19:00</span>
+              <h3 class="site-events__article-title">&laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей
+                Ильин.</h3>
+              <p class="site-events__article-description">Высокий уровень вовлечения представителей целевой аудитории
+                является чётким доказательством простого факта</p>
+              <a class="site-events__article-link" href="#no-scrolling">Подробнее</a>
+            </div>
+          </article>
+        </li>
+        <li class="swiper-slide site-events__swiper-slide">
+          <article class="site-events__article">
+            <picture class="site-events__picture">
+              <source srcset="assets/images/events-third-picture-320.avif, assets/images/events-third-picture-320@2x.avif 2x, assets/images/events-third-picture-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+              <source srcset="assets/images/events-third-picture-320.webp, assets/images/events-third-picture-320@2x.webp 2x, assets/images/events-third-picture-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+              <source srcset="assets/images/events-third-picture-320.jpg, assets/images/events-third-picture-320@2x.jpg 2x, assets/images/events-third-picture-320@3x.jpg 3x" media="(max-width: 320px)">
+              <source srcset="assets/images/events-third-picture-768.avif, assets/images/events-third-picture-768@2x.avif 2x, assets/images/events-third-picture-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/events-third-picture-768.webp, assets/images/events-third-picture-768@2x.webp 2x, assets/images/events-third-picture-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/events-third-picture-768.jpg, assets/images/events-third-picture-768@2x.jpg 2x, assets/images/events-third-picture-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/events-third-picture-1024.avif, assets/images/events-third-picture-1024@2x.avif 2x, assets/images/events-third-picture-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/events-third-picture-1024.webp, assets/images/events-third-picture-1024@2x.webp 2x, assets/images/events-third-picture-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/events-third-picture-1024.jpg, assets/images/events-third-picture-1024@2x.jpg 2x, assets/images/events-third-picture-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/events-third-picture-1920.avif, assets/images/events-third-picture-1920@2x.avif 2x, assets/images/events-third-picture-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/events-third-picture-1920.webp, assets/images/events-third-picture-1920@2x.webp 2x, assets/images/events-third-picture-1920@3x.webp 3x" type="image/webp">
+              <img class="site-events__image" src="assets/images/events-third-picture-1920.jpg" srcset="assets/images/events-third-picture-1920@2x.jpg 2x, assets/images/events-third-picture-1920@3x.jpg 3x" width="500" height="300" decoding="async" loading="lazy" alt="Выставка «Формация 2020»">
+            </picture>
+            <div class="site-events__article-content">
+              <span class="site-events__article-signature">Еврейский музей</span>
+              <span class="site-events__article-signature">с&nbsp;31&nbsp;марта по&nbsp;21&nbsp;апреля</span>
+              <h3 class="site-events__article-title site-events__article-title_medium">Выставка &laquo;Формация 2020&raquo;</h3>
+              <p class="site-events__article-description">Идейные соображения высшего порядка, а&nbsp;также современная
+                методология разработки играет важную роль в&nbsp;формировании глубокомысленных рассуждений</p>
+              <a class="site-events__article-link" href="#no-scrolling">Подробнее</a>
+            </div>
+          </article>
+        </li>
+        <li class="swiper-slide site-events__swiper-slide">
+          <article class="site-events__article">
+            <picture class="site-events__picture">
+              <source srcset="assets/images/events-four-picture-320.avif, assets/images/events-four-picture-320@2x.avif 2x, assets/images/events-four-picture-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+              <source srcset="assets/images/events-four-picture-320.webp, assets/images/events-four-picture-320@2x.webp 2x, assets/images/events-four-picture-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+              <source srcset="assets/images/events-four-picture-320.jpg, assets/images/events-four-picture-320@2x.jpg 2x, assets/images/events-four-picture-320@3x.jpg 3x" media="(max-width: 320px)">
+              <source srcset="assets/images/events-four-picture-768.avif, assets/images/events-four-picture-768@2x.avif 2x, assets/images/events-four-picture-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/events-four-picture-768.webp, assets/images/events-four-picture-768@2x.webp 2x, assets/images/events-four-picture-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/events-four-picture-768.jpg, assets/images/events-four-picture-768@2x.jpg 2x, assets/images/events-four-picture-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/events-four-picture-1024.avif, assets/images/events-four-picture-1024@2x.avif 2x, assets/images/events-four-picture-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/events-four-picture-1024.webp, assets/images/events-four-picture-1024@2x.webp 2x, assets/images/events-four-picture-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/events-four-picture-1024.jpg, assets/images/events-four-picture-1024@2x.jpg 2x, assets/images/events-four-picture-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/events-four-picture-1920.avif, assets/images/events-four-picture-1920@2x.avif 2x, assets/images/events-four-picture-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/events-four-picture-1920.webp, assets/images/events-four-picture-1920@2x.webp 2x, assets/images/events-four-picture-1920@3x.webp 3x" type="image/webp">
+              <img class="site-events__image" src="assets/images/events-four-picture-1920.jpg" srcset="assets/images/events-four-picture-1920@2x.jpg 2x, assets/images/events-four-picture-1920@3x.jpg 3x" width="500" height="300" decoding="async" loading="lazy" alt="Выставка «Формация 2020»">
+            </picture>
+            <div class="site-events__article-content">
+              <span class="site-events__article-signature">ММАМ</span>
+              <span class="site-events__article-signature">с&nbsp;8&nbsp;апреля по&nbsp;20&nbsp;мая</span>
+              <h3 class="site-events__article-title">Джон Винзор. Фотографии из&nbsp;серии &laquo;Метафора&raquo;</h3>
+              <p class="site-events__article-description">Один из&nbsp;ведущих флорентийских художников Кватроченто,
+                основатель художественной династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо</p>
+              <a class="site-events__article-link" href="#no-scrolling">Подробнее</a>
+            </div>
+          </article>
+        </li>
+        <li class="swiper-slide site-events__swiper-slide">
+          <article class="site-events__article">
+            <picture class="site-events__picture">
+              <source srcset="assets/images/events-five-picture-320.avif, assets/images/events-five-picture-320@2x.avif 2x, assets/images/events-five-picture-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+              <source srcset="assets/images/events-five-picture-320.webp, assets/images/events-five-picture-320@2x.webp 2x, assets/images/events-five-picture-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+              <source srcset="assets/images/events-five-picture-320.jpg, assets/images/events-five-picture-320@2x.jpg 2x, assets/images/events-five-picture-320@3x.jpg 3x" media="(max-width: 320px)">
+              <source srcset="assets/images/events-five-picture-768.avif, assets/images/events-five-picture-768@2x.avif 2x, assets/images/events-five-picture-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/events-five-picture-768.webp, assets/images/events-five-picture-768@2x.webp 2x, assets/images/events-five-picture-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/events-five-picture-768.jpg, assets/images/events-five-picture-768@2x.jpg 2x, assets/images/events-five-picture-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/events-five-picture-1024.avif, assets/images/events-five-picture-1024@2x.avif 2x, assets/images/events-five-picture-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/events-five-picture-1024.webp, assets/images/events-five-picture-1024@2x.webp 2x, assets/images/events-five-picture-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/events-five-picture-1024.jpg, assets/images/events-five-picture-1024@2x.jpg 2x, assets/images/events-five-picture-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/events-five-picture-1920.avif, assets/images/events-five-picture-1920@2x.avif 2x, assets/images/events-five-picture-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/events-five-picture-1920.webp, assets/images/events-five-picture-1920@2x.webp 2x, assets/images/events-five-picture-1920@3x.webp 3x" type="image/webp">
+              <img class="site-events__image" src="assets/images/events-five-picture-1920.jpg" srcset="assets/images/events-five-picture-1920@2x.jpg 2x, assets/images/events-five-picture-1920@3x.jpg 3x" width="500" height="300" decoding="async" loading="lazy" alt="Выставка «Формация 2020»">
+            </picture>
+            <div class="site-events__article-content">
+              <span class="site-events__article-signature">Третьяковка на&nbsp;Крымском валу</span>
+              <span class="site-events__article-signature">с&nbsp;30&nbsp;марта по&nbsp;30&nbsp;апреля</span>
+              <h3 class="site-events__article-title">XXIV Международная биеннале молодого искусства</h3>
+              <p class="site-events__article-description">Внезапно, реплицированные с&nbsp;зарубежных источников,
+                современные исследования</p>
+              <a class="site-events__article-link" href="#no-scrolling">Подробнее</a>
+            </div>
+          </article>
+        </li>
+      </ul>
+      <div class="swiper-pagination site-events__pagination"></div>
+    </div>
+  </div>
+</section>
+
+    <section class="site-project site-main__site-projects" id="projects">
+  <div class="site-container">
+    <h2 class="section-title site-project__title">Проекты</h2>
+    <div class="site-project__content-description">
+      <p class="site-project__description">
+        Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно
+        фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые государства смешаны
+        с не уникальными данными до степени совершённой неузнаваемости, из-за чего возрастает их статус бесполезности.
+        Прежде всего, постоянное информационно-пропагандистское
+        <button class="site-project__button site-project__button_first-info" type="button">
+          <svg class="site-project__button-svg" width="2" height="10" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-project-typpi" />
+          </svg>
+        </button>
+        обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых
+        решений. И&nbsp;нет сомнений, что действия представителей оппозиции могут быть рассмотрены
+        <button class="site-project__button site-project__button_second-info" type="button">
+          <svg class="site-project__button-svg" width="2" height="10" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-project-typpi" />
+          </svg>
+        </button>
+        исключительно
+        в&nbsp;разрезе маркетинговых и&nbsp;финансовых
+        <button class="site-project__button site-project__button_third-info" type="button">
+          <svg class="site-project__button-svg" width="2" height="10" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-project-typpi" />
+          </svg>
+        </button>
+        предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных резервов
+        призывают
+        нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не уникальными данными до степени
+        совершённой неузнаваемости. Подробнее:
+        <a class="site-project__link" href="#no-scrolling">blanchard-art.ru/projects</a>
+      </p>
+    </div>
+    <h3 class="site-project__subtitle">Партнёры проектов:</h3>
+    <div class="site-project__container-xl">
+      <div class="site-project__swiper-button">
+        <button class="site-project__button-prev" type="button">
+          <svg class="site-project__button-svg" width="7" height="12" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-project-swiper-arrow" />
+          </svg>
+        </button>
+        <button class="site-project__button-next" type="button">
+          <svg class="site-project__button-svg" width="7" height="12" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-project-swiper-arrow" />
+          </svg>
+        </button>
+      </div>
+      <div class="swiper site-project__swiper">
+        <ul class="swiper-wrapper site-project__swiper-wrapper">
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-freelands-320.avif, assets/images/project-freelands-320@2x.avif 2x, assets/images/project-freelands-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-freelands-320.webp, assets/images/project-freelands-320@2x.webp 2x, assets/images/project-freelands-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-freelands-320.jpg, assets/images/project-freelands-320@2x.jpg 2x, assets/images/project-freelands-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-freelands-768.avif, assets/images/project-freelands-768@2x.avif 2x, assets/images/project-freelands-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-freelands-768.webp, assets/images/project-freelands-768@2x.webp 2x, assets/images/project-freelands-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-freelands-768.jpg, assets/images/project-freelands-768@2x.jpg 2x, assets/images/project-freelands-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-freelands-1024.avif, assets/images/project-freelands-1024@2x.avif 2x, assets/images/project-freelands-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-freelands-1024.webp, assets/images/project-freelands-1024@2x.webp 2x, assets/images/project-freelands-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-freelands-1024.jpg, assets/images/project-freelands-1024@2x.jpg 2x, assets/images/project-freelands-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-freelands-1920.avif, assets/images/project-freelands-1920@2x.avif 2x, assets/images/project-freelands-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-freelands-1920.webp, assets/images/project-freelands-1920@2x.webp 2x, assets/images/project-freelands-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image site-project__swiper-image_freelands" src="assets/images/project-freelands-1920.jpg" srcset="assets/images/project-freelands-1920@2x.jpg 2x, assets/images/project-freelands-1920@3x.jpg 3x" width="244" height="63" decoding="async" loading="lazy" alt="Компания - Freelands Foundation">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-institute-320.avif, assets/images/project-institute-320@2x.avif 2x, assets/images/project-institute-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-institute-320.webp, assets/images/project-institute-320@2x.webp 2x, assets/images/project-institute-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-institute-320.jpg, assets/images/project-institute-320@2x.jpg 2x, assets/images/project-institute-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-institute-768.avif, assets/images/project-institute-768@2x.avif 2x, assets/images/project-institute-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-institute-768.webp, assets/images/project-institute-768@2x.webp 2x, assets/images/project-institute-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-institute-768.jpg, assets/images/project-institute-768@2x.jpg 2x, assets/images/project-institute-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-institute-1024.avif, assets/images/project-institute-1024@2x.avif 2x, assets/images/project-institute-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-institute-1024.webp, assets/images/project-institute-1024@2x.webp 2x, assets/images/project-institute-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-institute-1024.jpg, assets/images/project-institute-1024@2x.jpg 2x, assets/images/project-institute-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-institute-1920.avif, assets/images/project-institute-1920@2x.avif 2x, assets/images/project-institute-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-institute-1920.webp, assets/images/project-institute-1920@2x.webp 2x, assets/images/project-institute-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image site-project__swiper-image_institute" src="assets/images/project-institute-1920.jpg" srcset="assets/images/project-institute-1920@2x.jpg 2x, assets/images/project-institute-1920@3x.jpg 3x" width="330" height="59" decoding="async" loading="lazy" alt="Компания - Institute for Conteporary Art">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-workhouse-320.avif, assets/images/project-workhouse-320@2x.avif 2x, assets/images/project-workhouse-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-workhouse-320.webp, assets/images/project-workhouse-320@2x.webp 2x, assets/images/project-workhouse-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-workhouse-320.jpg, assets/images/project-workhouse-320@2x.jpg 2x, assets/images/project-workhouse-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-workhouse-768.avif, assets/images/project-workhouse-768@2x.avif 2x, assets/images/project-workhouse-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-workhouse-768.webp, assets/images/project-workhouse-768@2x.webp 2x, assets/images/project-workhouse-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-workhouse-768.jpg, assets/images/project-workhouse-768@2x.jpg 2x, assets/images/project-workhouse-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-workhouse-1024.avif, assets/images/project-workhouse-1024@2x.avif 2x, assets/images/project-workhouse-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-workhouse-1024.webp, assets/images/project-workhouse-1024@2x.webp 2x, assets/images/project-workhouse-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-workhouse-1024.jpg, assets/images/project-workhouse-1024@2x.jpg 2x, assets/images/project-workhouse-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-workhouse-1920.avif, assets/images/project-workhouse-1920@2x.avif 2x, assets/images/project-workhouse-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-workhouse-1920.webp, assets/images/project-workhouse-1920@2x.webp 2x, assets/images/project-workhouse-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image" src="assets/images/project-workhouse-1920.jpg" srcset="assets/images/project-workhouse-1920@2x.jpg 2x, assets/images/project-workhouse-1920@3x.jpg 3x" width="229" height="54" decoding="async" loading="lazy" alt="Компания - Workhouse">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-1849-320.avif, assets/images/project-1849-320@2x.avif 2x, assets/images/project-1849-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-1849-320.webp, assets/images/project-1849-320@2x.webp 2x, assets/images/project-1849-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-1849-320.jpg, assets/images/project-1849-320@2x.jpg 2x, assets/images/project-1849-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-1849-768.avif, assets/images/project-1849-768@2x.avif 2x, assets/images/project-1849-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-1849-768.webp, assets/images/project-1849-768@2x.webp 2x, assets/images/project-1849-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-1849-768.jpg, assets/images/project-1849-768@2x.jpg 2x, assets/images/project-1849-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-1849-1024.avif, assets/images/project-1849-1024@2x.avif 2x, assets/images/project-1849-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-1849-1024.webp, assets/images/project-1849-1024@2x.webp 2x, assets/images/project-1849-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-1849-1024.jpg, assets/images/project-1849-1024@2x.jpg 2x, assets/images/project-1849-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-1849-1920.avif, assets/images/project-1849-1920@2x.avif 2x, assets/images/project-1849-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-1849-1920.webp, assets/images/project-1849-1920@2x.webp 2x, assets/images/project-1849-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image" src="assets/images/project-1849-1920.jpg" srcset="assets/images/project-1849-1920@2x.jpg 2x, assets/images/project-1849-1920@3x.jpg 3x" width="123" height="85" decoding="async" loading="lazy" alt="Компания - 1849">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-hiscox-320.avif, assets/images/project-hiscox-320@2x.avif 2x, assets/images/project-hiscox-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-hiscox-320.webp, assets/images/project-hiscox-320@2x.webp 2x, assets/images/project-hiscox-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-hiscox-320.jpg, assets/images/project-hiscox-320@2x.jpg 2x, assets/images/project-hiscox-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-hiscox-768.avif, assets/images/project-hiscox-768@2x.avif 2x, assets/images/project-hiscox-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-hiscox-768.webp, assets/images/project-hiscox-768@2x.webp 2x, assets/images/project-hiscox-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-hiscox-768.jpg, assets/images/project-hiscox-768@2x.jpg 2x, assets/images/project-hiscox-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-hiscox-1024.avif, assets/images/project-hiscox-1024@2x.avif 2x, assets/images/project-hiscox-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-hiscox-1024.webp, assets/images/project-hiscox-1024@2x.webp 2x, assets/images/project-hiscox-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-hiscox-1024.jpg, assets/images/project-hiscox-1024@2x.jpg 2x, assets/images/project-hiscox-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-hiscox-1920.avif, assets/images/project-hiscox-1920@2x.avif 2x, assets/images/project-hiscox-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-hiscox-1920.webp, assets/images/project-hiscox-1920@2x.webp 2x, assets/images/project-hiscox-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image" src="assets/images/project-hiscox-1920.jpg" srcset="assets/images/project-hiscox-1920@2x.jpg 2x, assets/images/project-hiscox-1920@3x.jpg 3x" width="173" height="85" decoding="async" loading="lazy" alt="Компания - Hiscox">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-camden-320.avif, assets/images/project-camden-320@2x.avif 2x, assets/images/project-camden-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-camden-320.webp, assets/images/project-camden-320@2x.webp 2x, assets/images/project-camden-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-camden-320.jpg, assets/images/project-camden-320@2x.jpg 2x, assets/images/project-camden-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-camden-768.avif, assets/images/project-camden-768@2x.avif 2x, assets/images/project-camden-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-camden-768.webp, assets/images/project-camden-768@2x.webp 2x, assets/images/project-camden-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-camden-768.jpg, assets/images/project-camden-768@2x.jpg 2x, assets/images/project-camden-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-camden-1024.avif, assets/images/project-camden-1024@2x.avif 2x, assets/images/project-camden-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-camden-1024.webp, assets/images/project-camden-1024@2x.webp 2x, assets/images/project-camden-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-camden-1024.jpg, assets/images/project-camden-1024@2x.jpg 2x, assets/images/project-camden-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-camden-1920.avif, assets/images/project-camden-1920@2x.avif 2x, assets/images/project-camden-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-camden-1920.webp, assets/images/project-camden-1920@2x.webp 2x, assets/images/project-camden-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image" src="assets/images/project-camden-1920.jpg" srcset="assets/images/project-camden-1920@2x.jpg 2x, assets/images/project-camden-1920@3x.jpg 3x" width="252" height="70" decoding="async" loading="lazy" alt="Компания - Camden art centre">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-stassen-320.avif, assets/images/project-stassen-320@2x.avif 2x, assets/images/project-stassen-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-stassen-320.webp, assets/images/project-stassen-320@2x.webp 2x, assets/images/project-stassen-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-stassen-320.jpg, assets/images/project-stassen-320@2x.jpg 2x, assets/images/project-stassen-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-stassen-768.avif, assets/images/project-stassen-768@2x.avif 2x, assets/images/project-stassen-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-stassen-768.webp, assets/images/project-stassen-768@2x.webp 2x, assets/images/project-stassen-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-stassen-768.jpg, assets/images/project-stassen-768@2x.jpg 2x, assets/images/project-stassen-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-stassen-1024.avif, assets/images/project-stassen-1024@2x.avif 2x, assets/images/project-stassen-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-stassen-1024.webp, assets/images/project-stassen-1024@2x.webp 2x, assets/images/project-stassen-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-stassen-1024.jpg, assets/images/project-stassen-1024@2x.jpg 2x, assets/images/project-stassen-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-stassen-1920.avif, assets/images/project-stassen-1920@2x.avif 2x, assets/images/project-stassen-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-stassen-1920.webp, assets/images/project-stassen-1920@2x.webp 2x, assets/images/project-stassen-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image site-project__swiper-image_stassen" src="assets/images/project-stassen-1920.jpg" srcset="assets/images/project-stassen-1920@2x.jpg 2x, assets/images/project-stassen-1920@3x.jpg 3x" width="286" height="69" decoding="async" loading="lazy" alt="Компания - Stassen">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-watts-320.avif, assets/images/project-watts-320@2x.avif 2x, assets/images/project-watts-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-watts-320.webp, assets/images/project-watts-320@2x.webp 2x, assets/images/project-watts-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-watts-320.jpg, assets/images/project-watts-320@2x.jpg 2x, assets/images/project-watts-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-watts-768.avif, assets/images/project-watts-768@2x.avif 2x, assets/images/project-watts-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-watts-768.webp, assets/images/project-watts-768@2x.webp 2x, assets/images/project-watts-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-watts-768.jpg, assets/images/project-watts-768@2x.jpg 2x, assets/images/project-watts-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-watts-1024.avif, assets/images/project-watts-1024@2x.avif 2x, assets/images/project-watts-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-watts-1024.webp, assets/images/project-watts-1024@2x.webp 2x, assets/images/project-watts-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-watts-1024.jpg, assets/images/project-watts-1024@2x.jpg 2x, assets/images/project-watts-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-watts-1920.avif, assets/images/project-watts-1920@2x.avif 2x, assets/images/project-watts-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-watts-1920.webp, assets/images/project-watts-1920@2x.webp 2x, assets/images/project-watts-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image" src="assets/images/project-watts-1920.jpg" srcset="assets/images/project-watts-1920@2x.jpg 2x, assets/images/project-watts-1920@3x.jpg 3x" width="185" height="81" decoding="async" loading="lazy" alt="Компания - Watts">
+              </picture>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a class="site-project__swiper-link" href="#no-scrolling">
+              <picture class="site-project__swiper-picture">
+                <source srcset="assets/images/project-esad-320.avif, assets/images/project-esad-320@2x.avif 2x, assets/images/project-esad-320@3x.avif 3x" media="(max-width: 320px)" type="image/avif">
+                <source srcset="assets/images/project-esad-320.webp, assets/images/project-esad-320@2x.webp 2x, assets/images/project-esad-320@3x.webp 3x" media="(max-width: 320px)" type="image/webp">
+                <source srcset="assets/images/project-esad-320.jpg, assets/images/project-esad-320@2x.jpg 2x, assets/images/project-esad-320@3x.jpg 3x" media="(max-width: 320px)">
+                <source srcset="assets/images/project-esad-768.avif, assets/images/project-esad-768@2x.avif 2x, assets/images/project-esad-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+                <source srcset="assets/images/project-esad-768.webp, assets/images/project-esad-768@2x.webp 2x, assets/images/project-esad-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+                <source srcset="assets/images/project-esad-768.jpg, assets/images/project-esad-768@2x.jpg 2x, assets/images/project-esad-768@3x.jpg 3x" media="(max-width: 768px)">
+                <source srcset="assets/images/project-esad-1024.avif, assets/images/project-esad-1024@2x.avif 2x, assets/images/project-esad-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="assets/images/project-esad-1024.webp, assets/images/project-esad-1024@2x.webp 2x, assets/images/project-esad-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+                <source srcset="assets/images/project-esad-1024.jpg, assets/images/project-esad-1024@2x.jpg 2x, assets/images/project-esad-1024@3x.jpg 3x" media="(max-width: 1024px)">
+                <source srcset="assets/images/project-esad-1920.avif, assets/images/project-esad-1920@2x.avif 2x, assets/images/project-esad-1920@3x.avif 3x" type="image/avif">
+                <source srcset="assets/images/project-esad-1920.webp, assets/images/project-esad-1920@2x.webp 2x, assets/images/project-esad-1920@3x.webp 3x" type="image/webp">
+                <img class="site-project__swiper-image" src="assets/images/project-esad-1920.jpg" srcset="assets/images/project-esad-1920@2x.jpg 2x, assets/images/project-esad-1920@3x.jpg 3x" width="229" height="62" decoding="async" loading="lazy" alt="Компания - Esad">
+              </picture>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="site-showroom site-main__site-showroom" id="showroom">
+  <div class="site-showroom__wrapper">
+    <div class="site-container site-showroom__container">
+      <div class="site-showroom__content">
+        <div>
+          <h2 class="site-showroom__title">Шоурум №4</h2>
+          <address class="site-showroom__address">Леонтьевский переулок, дом 5/1</address>
+        </div>
+        <form class="site-showroom__form">
+          <div class="site-showroom__inner">
+            <input class="site-showroom__input site-showroom__name" type="text" placeholder="Имя*">
+          </div>
+          <div class="site-showroom__inner">
+            <input class="site-showroom__input site-showroom__tel" type="tel" placeholder="Телефон*">
+          </div>
+          <button class="site-showroom__form-button" type="submit">Заказать обратный звонок</button>
+          <button class="site-showroom__form-button site-showroom__form-button_hidden" type="submit">Заказать</button>
+        </form>
+        <div class="site-showroom__link-content">
+          <span class="site-showroom__social-title">Связаться в&nbsp;один клик</span>
+          <ul class="site-showroom__list">
+            <li>
+              <a class="site-showroom__link" href="#no-scrolling" target="_blank">
+                <svg class="site-showroom__svg" width="40" height="40" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-social-whatsapp" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="site-showroom__link" href="#no-scrolling" target="_blank">
+                <svg class="site-showroom__svg" width="40" height="40" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-social-telegram" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="site-showroom__map" id="YMapsID"></div>
+</section>
+
+  </main>
+  <footer class="site-footer site-footer_line">
+  <div class="site-container site-footer__container">
+    <a class="site-footer__logo" href="#no-scrolling">
+      <img class="site-footer__image" src="assets/images/icon-footer-logo.svg" alt="Логотип сайта Blanchard">
+    </a>
+    <ul class="site-footer__list">
+      <li>
+        <a class="site-footer__link" href="#no-scrolling" target="_blank">
+          <svg class="site-footer__svg" width="45" height="45" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-social-footer-vk" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="site-footer__link" href="#no-scrolling" target="_blank">
+          <svg class="site-footer__svg" width="45" height="45" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-social-footer-ok" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+  
+<div class="hystmodal" id="firstModal" aria-hidden="true">
+  <div class="hystmodal__wrap">
+      <div class="hystmodal__window" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">
+            <svg class="hystmodal__close-svg" width="16" height="16" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-modal-close" />
+            </svg>
+          </button>
+          <div class="hystmodal__inner">
+            <picture class="hystmodal__picture">
+              <source srcset="assets/images/poppup-picture-first-320.avif, assets/images/poppup-picture-first-320@2x.avif 2x, assets/images/poppup-picture-first-320@3x.avif 3x" media="(max-width: 644px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-first-320.webp, assets/images/poppup-picture-first-320@2x.webp 2x, assets/images/poppup-picture-first-320@3x.webp 3x" media="(max-width: 644px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-first-320.jpg, assets/images/poppup-picture-first-320@2x.jpg 2x, assets/images/poppup-picture-first-320@3x.jpg 3x" media="(max-width: 644px)">
+              <source srcset="assets/images/poppup-picture-first-768.avif, assets/images/poppup-picture-first-768@2x.avif 2x, assets/images/poppup-picture-first-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-first-768.webp, assets/images/poppup-picture-first-768@2x.webp 2x, assets/images/poppup-picture-first-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-first-768.jpg, assets/images/poppup-picture-first-768@2x.jpg 2x, assets/images/poppup-picture-first-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/poppup-picture-first-1024.avif, assets/images/poppup-picture-first-1024@2x.avif 2x, assets/images/poppup-picture-first-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-first-1024.webp, assets/images/poppup-picture-first-1024@2x.webp 2x, assets/images/poppup-picture-first-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-first-1024.jpg, assets/images/poppup-picture-first-1024@2x.jpg 2x, assets/images/poppup-picture-first-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/poppup-picture-first-1920.avif, assets/images/poppup-picture-first-1920@2x.avif 2x, assets/images/poppup-picture-first-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/poppup-picture-first-1920.webp, assets/images/poppup-picture-first-1920@2x.webp 2x, assets/images/poppup-picture-first-1920@3x.webp 3x" type="image/webp">
+              <img class="hystmodal__image" src="assets/images/poppup-picture-first-1920.jpg" srcset="assets/images/poppup-picture-first-1920@2x.jpg 2x, assets/images/poppup-picture-first-1920@3x.jpg 3x" width="400" height="500" decoding="async" loading="lazy" alt="«Женщина с граблями»">
+            </picture>
+            <div class="hystmodal__content">
+              <h2 class="hystmodal__title">Далеко-далеко, за.</h2>
+              <span class="hystmodal__sub-title">Далеко-далеко, за словесными.</span>
+              <span class="hystmodal__date">1931&ndash;1932</span>
+              <p class="hystmodal__description">
+                Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930–1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="hystmodal" id="secondModal" aria-hidden="true">
+  <div class="hystmodal__wrap">
+      <div class="hystmodal__window" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">
+            <svg class="hystmodal__close-svg" width="16" height="16" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-modal-close" />
+            </svg>
+          </button>
+          <div class="hystmodal__inner">
+            <picture class="hystmodal__picture">
+              <source srcset="assets/images/poppup-picture-second-320.avif, assets/images/poppup-picture-second-320@2x.avif 2x, assets/images/poppup-picture-second-320@3x.avif 3x" media="(max-width: 644px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-second-320.webp, assets/images/poppup-picture-second-320@2x.webp 2x, assets/images/poppup-picture-second-320@3x.webp 3x" media="(max-width: 644px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-second-320.jpg, assets/images/poppup-picture-second-320@2x.jpg 2x, assets/images/poppup-picture-second-320@3x.jpg 3x" media="(max-width: 644px)">
+              <source srcset="assets/images/poppup-picture-second-768.avif, assets/images/poppup-picture-second-768@2x.avif 2x, assets/images/poppup-picture-second-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-second-768.webp, assets/images/poppup-picture-second-768@2x.webp 2x, assets/images/poppup-picture-second-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-second-768.jpg, assets/images/poppup-picture-second-768@2x.jpg 2x, assets/images/poppup-picture-second-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/poppup-picture-second-1024.avif, assets/images/poppup-picture-second-1024@2x.avif 2x, assets/images/poppup-picture-second-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-second-1024.webp, assets/images/poppup-picture-second-1024@2x.webp 2x, assets/images/poppup-picture-second-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-second-1024.jpg, assets/images/poppup-picture-second-1024@2x.jpg 2x, assets/images/poppup-picture-second-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/poppup-picture-second-1920.avif, assets/images/poppup-picture-second-1920@2x.avif 2x, assets/images/poppup-picture-second-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/poppup-picture-second-1920.webp, assets/images/poppup-picture-second-1920@2x.webp 2x, assets/images/poppup-picture-second-1920@3x.webp 3x" type="image/webp">
+              <img class="hystmodal__image" src="assets/images/poppup-picture-second-1920.jpg" srcset="assets/images/poppup-picture-second-1920@2x.jpg 2x, assets/images/poppup-picture-second-1920@3x.jpg 3x" width="400" height="500" decoding="async" loading="lazy" alt="«Женщина с граблями»">
+            </picture>
+            <div class="hystmodal__content">
+              <h2 class="hystmodal__title">Казимир Малевич</h2>
+              <span class="hystmodal__sub-title">&laquo;Женщина с&nbsp;граблями&raquo;</span>
+              <span class="hystmodal__date">1931&ndash;1932</span>
+              <p class="hystmodal__description">
+                Картина из&nbsp;второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за&nbsp;её&nbsp;создание в&nbsp;1930&ndash;1931&nbsp;годах, после того, как первый цикл был утерян после Берлинской и&nbsp;Варшавской выставок в&nbsp;1927&nbsp;году.
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="hystmodal" id="thirdModal" aria-hidden="true">
+  <div class="hystmodal__wrap">
+      <div class="hystmodal__window" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">
+            <svg class="hystmodal__close-svg" width="16" height="16" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-modal-close" />
+            </svg>
+          </button>
+          <div class="hystmodal__inner">
+            <picture class="hystmodal__picture">
+              <source srcset="assets/images/poppup-picture-third-320.avif, assets/images/poppup-picture-third-320@2x.avif 2x, assets/images/poppup-picture-third-320@3x.avif 3x" media="(max-width: 644px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-third-320.webp, assets/images/poppup-picture-third-320@2x.webp 2x, assets/images/poppup-picture-third-320@3x.webp 3x" media="(max-width: 644px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-third-320.jpg, assets/images/poppup-picture-third-320@2x.jpg 2x, assets/images/poppup-picture-third-320@3x.jpg 3x" media="(max-width: 644px)">
+              <source srcset="assets/images/poppup-picture-third-768.avif, assets/images/poppup-picture-third-768@2x.avif 2x, assets/images/poppup-picture-third-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-third-768.webp, assets/images/poppup-picture-third-768@2x.webp 2x, assets/images/poppup-picture-third-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-third-768.jpg, assets/images/poppup-picture-third-768@2x.jpg 2x, assets/images/poppup-picture-third-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/poppup-picture-third-1024.avif, assets/images/poppup-picture-third-1024@2x.avif 2x, assets/images/poppup-picture-third-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-third-1024.webp, assets/images/poppup-picture-third-1024@2x.webp 2x, assets/images/poppup-picture-third-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-third-1024.jpg, assets/images/poppup-picture-third-1024@2x.jpg 2x, assets/images/poppup-picture-third-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/poppup-picture-third-1920.avif, assets/images/poppup-picture-third-1920@2x.avif 2x, assets/images/poppup-picture-third-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/poppup-picture-third-1920.webp, assets/images/poppup-picture-third-1920@2x.webp 2x, assets/images/poppup-picture-third-1920@3x.webp 3x" type="image/webp">
+              <img class="hystmodal__image" src="assets/images/poppup-picture-third-1920.jpg" srcset="assets/images/poppup-picture-third-1920@2x.jpg 2x, assets/images/poppup-picture-third-1920@3x.jpg 3x" width="400" height="500" decoding="async" loading="lazy" alt="«Женщина с граблями»">
+            </picture>
+            <div class="hystmodal__content">
+              <h2 class="hystmodal__title">Далеко-далеко, за.</h2>
+              <span class="hystmodal__sub-title">Далеко-далеко, за словесными.</span>
+              <span class="hystmodal__date">1931&ndash;1932</span>
+              <p class="hystmodal__description">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Безопасную страну если меня себя, повстречался, текст курсивных дороге переписывается диких, языкового составитель? Путь букв, однажды до большого живет на берегу.
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="hystmodal" id="fourthModal" aria-hidden="true">
+  <div class="hystmodal__wrap">
+      <div class="hystmodal__window" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">
+            <svg class="hystmodal__close-svg" width="16" height="16" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-modal-close" />
+            </svg>
+          </button>
+          <div class="hystmodal__inner">
+            <picture class="hystmodal__picture">
+              <source srcset="assets/images/poppup-picture-fourth-320.avif, assets/images/poppup-picture-fourth-320@2x.avif 2x, assets/images/poppup-picture-fourth-320@3x.avif 3x" media="(max-width: 644px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fourth-320.webp, assets/images/poppup-picture-fourth-320@2x.webp 2x, assets/images/poppup-picture-fourth-320@3x.webp 3x" media="(max-width: 644px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-fourth-320.jpg, assets/images/poppup-picture-fourth-320@2x.jpg 2x, assets/images/poppup-picture-fourth-320@3x.jpg 3x" media="(max-width: 644px)">
+              <source srcset="assets/images/poppup-picture-fourth-768.avif, assets/images/poppup-picture-fourth-768@2x.avif 2x, assets/images/poppup-picture-fourth-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fourth-768.webp, assets/images/poppup-picture-fourth-768@2x.webp 2x, assets/images/poppup-picture-fourth-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-fourth-768.jpg, assets/images/poppup-picture-fourth-768@2x.jpg 2x, assets/images/poppup-picture-fourth-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/poppup-picture-fourth-1024.avif, assets/images/poppup-picture-fourth-1024@2x.avif 2x, assets/images/poppup-picture-fourth-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fourth-1024.webp, assets/images/poppup-picture-fourth-1024@2x.webp 2x, assets/images/poppup-picture-fourth-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-fourth-1024.jpg, assets/images/poppup-picture-fourth-1024@2x.jpg 2x, assets/images/poppup-picture-fourth-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/poppup-picture-fourth-1920.avif, assets/images/poppup-picture-fourth-1920@2x.avif 2x, assets/images/poppup-picture-fourth-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fourth-1920.webp, assets/images/poppup-picture-fourth-1920@2x.webp 2x, assets/images/poppup-picture-fourth-1920@3x.webp 3x" type="image/webp">
+              <img class="hystmodal__image" src="assets/images/poppup-picture-fourth-1920.jpg" srcset="assets/images/poppup-picture-fourth-1920@2x.jpg 2x, assets/images/poppup-picture-fourth-1920@3x.jpg 3x" width="400" height="500" decoding="async" loading="lazy" alt="«Женщина с граблями»">
+            </picture>
+            <div class="hystmodal__content">
+              <h2 class="hystmodal__title">Далеко-далеко, за.</h2>
+              <span class="hystmodal__sub-title">Далеко-далеко, за словесными.</span>
+              <span class="hystmodal__date">1931&ndash;1932</span>
+              <p class="hystmodal__description">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Безопасную страну если меня себя, повстречался, текст курсивных дороге переписывается диких, языкового составитель? Путь букв, однажды до большого живет на берегу.
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="hystmodal" id="fifthModal" aria-hidden="true">
+  <div class="hystmodal__wrap">
+      <div class="hystmodal__window" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">
+            <svg class="hystmodal__close-svg" width="16" height="16" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-modal-close" />
+            </svg>
+          </button>
+          <div class="hystmodal__inner">
+            <picture class="hystmodal__picture">
+              <source srcset="assets/images/poppup-picture-fifth-320.avif, assets/images/poppup-picture-fifth-320@2x.avif 2x, assets/images/poppup-picture-fifth-320@3x.avif 3x" media="(max-width: 644px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fifth-320.webp, assets/images/poppup-picture-fifth-320@2x.webp 2x, assets/images/poppup-picture-fifth-320@3x.webp 3x" media="(max-width: 644px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-fifth-320.jpg, assets/images/poppup-picture-fifth-320@2x.jpg 2x, assets/images/poppup-picture-fifth-320@3x.jpg 3x" media="(max-width: 644px)">
+              <source srcset="assets/images/poppup-picture-fifth-768.avif, assets/images/poppup-picture-fifth-768@2x.avif 2x, assets/images/poppup-picture-fifth-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fifth-768.webp, assets/images/poppup-picture-fifth-768@2x.webp 2x, assets/images/poppup-picture-fifth-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-fifth-768.jpg, assets/images/poppup-picture-fifth-768@2x.jpg 2x, assets/images/poppup-picture-fifth-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/poppup-picture-fifth-1024.avif, assets/images/poppup-picture-fifth-1024@2x.avif 2x, assets/images/poppup-picture-fifth-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fifth-1024.webp, assets/images/poppup-picture-fifth-1024@2x.webp 2x, assets/images/poppup-picture-fifth-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-fifth-1024.jpg, assets/images/poppup-picture-fifth-1024@2x.jpg 2x, assets/images/poppup-picture-fifth-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/poppup-picture-fifth-1920.avif, assets/images/poppup-picture-fifth-1920@2x.avif 2x, assets/images/poppup-picture-fifth-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/poppup-picture-fifth-1920.webp, assets/images/poppup-picture-fifth-1920@2x.webp 2x, assets/images/poppup-picture-fifth-1920@3x.webp 3x" type="image/webp">
+              <img class="hystmodal__image" src="assets/images/poppup-picture-fifth-1920.jpg" srcset="assets/images/poppup-picture-fifth-1920@2x.jpg 2x, assets/images/poppup-picture-fifth-1920@3x.jpg 3x" width="400" height="500" decoding="async" loading="lazy" alt="«Женщина с граблями»">
+            </picture>
+            <div class="hystmodal__content">
+              <h2 class="hystmodal__title">Далеко-далеко, за.</h2>
+              <span class="hystmodal__sub-title">Далеко-далеко, за словесными.</span>
+              <span class="hystmodal__date">1931&ndash;1932</span>
+              <p class="hystmodal__description">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Безопасную страну если меня себя, повстречался, текст курсивных дороге переписывается диких, языкового составитель? Путь букв, однажды до большого живет на берегу.
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="hystmodal" id="sixthModal" aria-hidden="true">
+  <div class="hystmodal__wrap">
+      <div class="hystmodal__window" role="dialog" aria-modal="true">
+          <button data-hystclose class="hystmodal__close">
+            <svg class="hystmodal__close-svg" width="16" height="16" aria-hidden="true">
+              <use xlink:href="assets/images/sprite.svg#icon-modal-close" />
+            </svg>
+          </button>
+          <div class="hystmodal__inner">
+            <picture class="hystmodal__picture">
+              <source srcset="assets/images/poppup-picture-sixth-320.avif, assets/images/poppup-picture-sixth-320@2x.avif 2x, assets/images/poppup-picture-sixth-320@3x.avif 3x" media="(max-width: 644px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-sixth-320.webp, assets/images/poppup-picture-sixth-320@2x.webp 2x, assets/images/poppup-picture-sixth-320@3x.webp 3x" media="(max-width: 644px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-sixth-320.jpg, assets/images/poppup-picture-sixth-320@2x.jpg 2x, assets/images/poppup-picture-sixth-320@3x.jpg 3x" media="(max-width: 644px)">
+              <source srcset="assets/images/poppup-picture-sixth-768.avif, assets/images/poppup-picture-sixth-768@2x.avif 2x, assets/images/poppup-picture-sixth-768@3x.avif 3x" media="(max-width: 768px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-sixth-768.webp, assets/images/poppup-picture-sixth-768@2x.webp 2x, assets/images/poppup-picture-sixth-768@3.webp 3x" media="(max-width: 768px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-sixth-768.jpg, assets/images/poppup-picture-sixth-768@2x.jpg 2x, assets/images/poppup-picture-sixth-768@3x.jpg 3x" media="(max-width: 768px)">
+              <source srcset="assets/images/poppup-picture-sixth-1024.avif, assets/images/poppup-picture-sixth-1024@2x.avif 2x, assets/images/poppup-picture-sixth-1024@3x.avif 3x" media="(max-width: 1024px)" type="image/avif">
+              <source srcset="assets/images/poppup-picture-sixth-1024.webp, assets/images/poppup-picture-sixth-1024@2x.webp 2x, assets/images/poppup-picture-sixth-1024@3x.webp 3x" media="(max-width: 1024px)" type="image/webp">
+              <source srcset="assets/images/poppup-picture-sixth-1024.jpg, assets/images/poppup-picture-sixth-1024@2x.jpg 2x, assets/images/poppup-picture-sixth-1024@3x.jpg 3x" media="(max-width: 1024px)">
+              <source srcset="assets/images/poppup-picture-sixth-1920.avif, assets/images/poppup-picture-sixth-1920@2x.avif 2x, assets/images/poppup-picture-sixth-1920@3x.avif 3x" type="image/avif">
+              <source srcset="assets/images/poppup-picture-sixth-1920.webp, assets/images/poppup-picture-sixth-1920@2x.webp 2x, assets/images/poppup-picture-sixth-1920@3x.webp 3x" type="image/webp">
+              <img class="hystmodal__image" src="assets/images/poppup-picture-sixth-1920.jpg" srcset="assets/images/poppup-picture-sixth-1920@2x.jpg 2x, assets/images/poppup-picture-sixth-1920@3x.jpg 3x" width="400" height="500" decoding="async" loading="lazy" alt="«Женщина с граблями»">
+            </picture>
+            <div class="hystmodal__content">
+              <h2 class="hystmodal__title">Далеко-далеко, за.</h2>
+              <span class="hystmodal__sub-title">Далеко-далеко, за словесными.</span>
+              <span class="hystmodal__date">1931&ndash;1932</span>
+              <p class="hystmodal__description">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Безопасную страну если меня себя, повстречался, текст курсивных дороге переписывается диких, языкового составитель? Путь букв, однажды до большого живет на берегу.
+              </p>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+</body>
+
+</html>
